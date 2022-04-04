@@ -1,5 +1,5 @@
 /*
-    g++ drill16.cpp Graph.cpp Window.cpp GUI.cpp Lines_Window.cpp -o drill16 `fltk-config --ldflags --use-images`
+    g++ drill16.cpp Graph.cpp Window.cpp GUI.cpp Lines_Window.cpp -o drill16 `fltk-config --ldflags --use-images` -std=c++11
 */
 #include "Graph.h"
 #include "Lines_Window.h"
@@ -12,7 +12,5 @@ int main(){
 
 	return gui_main();
 
-
-
-	return 0;
+return 0;
 }

@@ -4,7 +4,7 @@ using namespace Graph_lib;
 
 
 //Rajzoló
-struct Lines_Window : Window {
+struct Lines_Window : Graph_lib::Window{
 	Lines_Window(Point xy, int w, int h, const string& title);
 	Open_polyline lines;
 	Menu color_menu;

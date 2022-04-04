@@ -1,6 +1,6 @@
 #include "Lines_Window.h"
 
-Lines_Window :: Lines_Window(Point xy, int w, int h, const string& title)
+Lines_Window::Lines_Window(Point xy, int w, int h, const string& title)
 : Window{xy, w, h, title},
 next_button{Point{x_max()-150, 0}, 150, 40, "Next",
  [](Address, Address pw) {reference_to<Lines_Window>(pw).next();}},
